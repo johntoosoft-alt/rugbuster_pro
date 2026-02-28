@@ -1,0 +1,15 @@
+{
+  "name": "rugbuster-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node rugbuster_pro.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "*",
+    "@solana/web3.js": "*",
+    "@solana/spl-token": "*",
+    "axios": "*",
+    "bs58": "*",
+    "qrcode": "*"
+  }
+}
