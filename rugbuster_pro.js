@@ -3,13 +3,14 @@
 // ============================================================
 //
 // REPLIT SECRETS:
-//   TELEGRAM_BOT_TOKEN  — from @BotFather
+//   TELEGRAM_BOT_TOKEN  — 8369659164:AAHW8FsB-jyqB4_Ujn02zlmteRaYfH2u8GE
 //   ENCRYPTION_KEY      — any random 32+ char string
 //
 // INSTALL:
 //   npm install node-telegram-bot-api @solana/web3.js @solana/spl-token axios bs58 qrcode
 // ============================================================
-
+const https = require('https');
+const agent = new https.Agent({keepAlive:true});
 'use strict';
 
 const TelegramBot     = require('node-telegram-bot-api');
